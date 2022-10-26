@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="254.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerRegistro">
+   <children>
+      <Label layoutX="29.0" layoutY="43.0" prefHeight="17.0" prefWidth="196.0" text="Introduce el nombre de usuario: " />
+      <Label layoutX="29.0" layoutY="90.0" prefHeight="17.0" prefWidth="196.0" text="Introduce la contraseña:" />
+      <Label layoutX="29.0" layoutY="142.0" prefHeight="17.0" prefWidth="196.0" text="Introduce el email: " />
+      <Label layoutX="29.0" layoutY="194.0" prefHeight="17.0" prefWidth="196.0" text="Selecciona el tipo de usuario:" />
+      <PasswordField fx:id="pass" layoutX="250.0" layoutY="86.0" />
+      <TextField fx:id="name" layoutX="250.0" layoutY="39.0" />
+      <TextField fx:id="mail" layoutX="250.0" layoutY="138.0" />
+      <ComboBox fx:id="tipo" layoutX="249.0" layoutY="190.0" prefWidth="150.0" />
+   </children>
+</Pane>
