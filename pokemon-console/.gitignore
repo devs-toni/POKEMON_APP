@@ -1,0 +1,6 @@
+/target/
+target/classes/META-INF/MANIFEST.MF
+target/classes/META-INF/maven/org.projects/pokemon/pom.properties
+target/classes/META-INF/maven/org.projects/pokemon/pom.xml
+pom.xml
+.classpath
